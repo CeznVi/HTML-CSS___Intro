@@ -1,0 +1,38 @@
+
+body{
+    background-color: gray;
+    background-image: url("images/bg.jpg");
+    background-size: contain;
+    background-repeat: round;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: rgb(9, 51, 51);
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 2px;
+}
+
+
+
+.imgAlignCenterWithoutSize{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orangeText{
+    color: orange;
+}
+
+
