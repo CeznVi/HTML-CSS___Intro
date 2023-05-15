@@ -3,7 +3,7 @@ body{
     background-color: gray;
     background-image: url("images/bg.jpg");
     background-size: contain;
-    background-repeat: round;
+    background-repeat: repeat;
 }
 
 h1{
@@ -15,15 +15,14 @@ h1{
 
 h2{
     font-size: 30px;
+    color: midnightblue;
 }
 
 p{
     font-size: 30px;
     font-family: 'Caveat', cursive;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
 }
-
-
 
 .imgAlignCenterWithoutSize{
     display: block;
@@ -35,4 +34,10 @@ p{
     color: orange;
 }
 
-
+.captionPictures{
+    margin-top: -2px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
